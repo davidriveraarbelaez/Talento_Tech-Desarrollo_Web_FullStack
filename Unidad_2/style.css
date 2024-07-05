@@ -1,0 +1,80 @@
+/* Elemento tipo selector */
+H1{
+    color:blueviolet;
+    font-family: Helvetica;
+    font-weight: bold; /* Texto en negrita */ 
+    font-style: italic; /* Texto en cursiva */
+}
+
+/* Reto
+- Modificar el color del texto
+del párrafo
+- Justificar el texto
+*/
+p{
+    color:rgb(64, 52, 52);
+    text-align: justify; /* Justificación */
+    /* Modificar el color
+    de fondo del párrafo
+    */
+    background-color: rgba(255, 235, 205);
+    opacity: 0.8;
+    /*
+    background-color: rgba(255, 235, 205, 0.8);
+    */
+    line-height: 1.5; /* Espacio entre líneas (valor relativo) */
+/* line-height: 20px; */ /* Espacio entre líneas (valor absoluto) */
+
+}
+
+/* Selector de clase */
+.highlight{
+    background-color: cornflowerblue;
+}
+
+.parrafo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(255, 140, 0, 0.438);
+}
+
+/* Selector de identidad */
+/*
+#footer{
+    background-color: #ff7f7f;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}*/
+
+/* Selector universal */
+*{
+    margin: 3px;
+    padding: 3px;
+}
+
+/* Selectores de agrupación */
+h2,h3{
+    text-align: center;
+    color: sienna;
+}
+
+/* Flexbox en acción */
+.header{
+    background: orange;
+    padding: 2em;
+    text-align: center;
+}
+.nav{
+    background: rgba(255, 255, 0, 0.492);
+    text-align: center;
+}
+.footer{
+    background-color: #7fffa8;
+}
+
+/*
+Content
+Sidebar
+*/
