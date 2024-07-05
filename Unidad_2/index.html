@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidad 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cambiar color de fondo 
+    <body style = "background-color: blanchedalmond;">
+    -->    
+    <!-- 
+        <nav> 
+            <a href="#Bio">Imágenes</a>
+            <a href="#Enlaces">Enlaces</a>
+        </nav>
+    -->
+    <div class="nav">
+        <a href="#Bio">Imágenes</a>
+        <a href="#Enlaces">Enlaces</a>  
+    </div>
+
+    <main> 
+        <section id="Bio">
+            <h1> Sitio web personal dedicado al aprendizaje de desarrollo web </h1>
+            <!-- <h2> Imágenes </h2> -->
+            <h2 class="highlight">
+                Imágenes
+            </h2> 
+            <p class="highlight"> Lorem ipsum dolor <b>amet consectetur </b>  adipisicing elit. Facilis beatae, iusto itaque cum modi corrupti labore nesciunt ad error? Quasi accusamus atque quaerat laudantium. Cupiditate minus inventore iusto vero odio. </p>
+            
+            <p class="parrafo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ratione, repudiandae vel architecto consequuntur explicabo ullam obcaecati deleniti repellat commodi, et cupiditate ad, delectus rerum. Beatae qui asperiores voluptate accusantium? </p>
+
+            
+            <!-- Importar una imagen desde la web -->            
+            <h3> Gestión de imágenes</h3> 
+            <h4> Importando desde la web </h4>
+            <img src="https://media.istockphoto.com/id/950688808/es/foto/disfrutar-de-c%C3%B3cteles-en-la-piscina.jpg?s=1024x1024&w=is&k=20&c=UQIb0T8DlNxD4KHbE0hjvhx-lrlb0ZkTd5C3g9JqoBg=" alt="paseo">
+            <!-- Importar las imágenes desde la carpeta local -->
+            <h4> Importando de manera local </h4>
+            <img src="img/pexels-akos-szabo-145938-440731.jpg" alt="paisaje">
+            <h4> Imagen redimensionada </h4>
+            <img src="img/pexels-akos-szabo-145938-440731.jpg" width="1280" height="960" alt="paisaje">
+            <!-- Figura con caption-->
+            <h4> Figura con caption </h4>
+            <figure>
+                <img src="https://media.istockphoto.com/id/950688808/es/foto/disfrutar-de-c%C3%B3cteles-en-la-piscina.jpg?s=1024x1024&w=is&k=20&c=UQIb0T8DlNxD4KHbE0hjvhx-lrlb0ZkTd5C3g9JqoBg=" alt="paseo"> 
+                <figcaption> figcaption </figcaption>
+            </figure>
+            <video controls>
+                <source src="https://youtu.be/t0kYAjEIeaQ?si=io6aSA6ihsA4TnB4" > VSCode en español
+            </video>
+        </section>
+
+        <!-- enlaces -->
+         <section id="Enlaces">
+            <h2> Enlaces </h2>
+            <a href="www.google.com">Ir a Google</a>
+
+         </section>
+
+         <!-- Crear tablas -->
+         <section id="Tablas">
+            <h2>Creando tablas </h2>
+            <table>
+                <tr>
+                    <td> Cantidad </td>
+                    <td> Producto </td>
+                </tr>
+                <tr>
+                    <td> 1 </td>
+                    <td> Cuchillo </td>
+                </tr>
+
+            </table>
+         </section> 
+
+         <!-- Formulario -->
+         <section id="Formulario">
+            <form action=""> <!-- Form define el formulario -->
+                <!-- Nombre -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre"><br>
+                <!-- Email -->
+                 <label for="email">Email:</label>
+                 <input type="email"><br>
+                <!-- Tel -->
+
+
+                <!-- Mensaje -->
+
+                <!-- Lista de seleccion -> Dropdown -->
+                <select>
+                    <option value="comercial">Comercial</option>
+                    <option value="cita-previa">Solicitar cita</option>
+                </select>
+                <br>
+                <!-- Check boxes-->
+                 <input type="radio" name="terminos" value="acepto">Acepto términos y condiciones
+
+                 <br>
+                <!-- Enviar --> 
+                <input type="submit" value="Enviar mensaje"> 
+            </form>
+         </section>
+    </main>
+<!--     <footer> Todos los derechos reservados </footer> -->
+    <div id = "footer">
+        Todos los derechos reservados
+    </div> 
+</body>
+</html>
