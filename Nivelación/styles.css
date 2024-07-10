@@ -1,0 +1,16 @@
+
+#listas-ordenadas{
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: dotted;
+    border-radius: 10% / 50%;
+    margin: 10px;
+}
+/* Conteo con numeros romanos */
+/*             #listas-ordenadas ol{
+    list-style-type: upper-roman;
+} */
+/* Cambiar el color del texto de la lista ordenada */
+/*             #listas-ordenadas li{
+    color: #2f00ff;
+} */
