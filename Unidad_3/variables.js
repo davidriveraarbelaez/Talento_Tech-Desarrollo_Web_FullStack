@@ -44,6 +44,11 @@ var:                         | let:
 ¿Cuándo usar cuál?
 - var: En general, se recomienda evitar var en el código nuevo, a menos que estemos trabajando con código heredado que lo utilice.
 - let: Es la opción preferida para declarar variables en la mayoría de los casos, ya que proporciona un alcance más controlado y evita muchos de los problemas asociados con var.
+
+let NombreCompleto = "Pedro Pérez";
+declaración = NombreCompleto
+asignación = Pedro Pérez
+
 */
 
 let nombre = "David"; // Variable para almacenar nombre (Tipo de dato: Cadena de texto)
