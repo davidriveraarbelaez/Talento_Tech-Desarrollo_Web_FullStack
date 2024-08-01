@@ -59,3 +59,28 @@ const cedula_ciudadania = 1234567890; // Constante para almacenar número de cé
 console.log("Mi nombre es " + nombre + " tengo " + edad + " años " + "y mi número de cédula es " + cedula_ciudadania);
 
 // Mi nombre es NOMBRE, tengo EDAD años y mi número de cédula es CEDULA_CIUDADANIA 
+
+/* Buenas prácticas para declarar variables */
+// Nombres descriptivos
+let verduras = ["lechuga", "tomate"]; // Correcto
+let v = ["lechuga", "tomate"]; // Incorrecto
+
+// Alcance de bloque
+if (true) {
+    let numero = 10; // Correcto
+    var numero2 = 20; // Incorrecto
+}
+
+// Evitar variables globales
+function saludar() {
+    let mensaje = "Hola mundo";
+    console.log(mensaje);
+}
+
+// Utilizar tipos de datos adecuados
+let precio = 100; // Correcto, es numérico
+let precio = "100"; // Incorrecto, no es numérico
+
+// Utilizar constantes para valores inmutables
+const PI = 3.1416; // Correcto
+let PI = 3.1416; // Incorrecto
