@@ -15,16 +15,14 @@ app.get('/tareas', (req, res) => {
     res.json(tareas); // Envía la respuesta
 });
 
-app.post('/tareas', (req, res) => {
+app.post('/tareas', (req, res) => { 
     const nuevaTarea = {
-        id: tareas.length + 1,
-        tarea: req.body.tarea
+        id: tareas.length + 1, 
+        tarea: req.body.tarea 
     };
-    tareas.push(nuevaTarea);
-
+    tareas.push(nuevaTarea); 
 });
 
-
-app.listen(port, ()=>{
-    console.log(`Servidor escuchando en el puerto ${port}`);
+app.listen(port, ()=>{ // Inicia el servidor
+    console.log(`Servidor escuchando en el puerto ${port}`);    // Muestra un mensaje en la consola
 });
