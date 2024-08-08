@@ -49,3 +49,48 @@ Crear un ciclo for que me permita contar de manera ascendente desde 0 hasta 20 d
 for (let k=0; k<=20; k+=2) {
     console.log("El valor de k es: ", k);
 }
+
+/*
+ciclo for of: es una estructura de control que permite recorrer los elementos de un arreglo
+
+La estructura de un ciclo for of en JavaScript es la siguiente:
+
+for (let elemento of arreglo) {
+    // código a ejecutar en cada iteración
+}
+    
+*/
+
+// Ejemplo de ciclo for of
+let colores = ['rojo', 'verde', 'azul']; // Arreglo de colores
+
+for (let color of colores) { // Recorre los elementos del arreglo
+    console.log(color); // Imprime cada color
+}
+
+/*
+ciclo for in: es una estructura de control que permite recorrer las propiedades de un objeto.
+
+La estructura de un ciclo for in en JavaScript es la siguiente:
+
+for (let propiedad in objeto) {
+    // código a ejecutar en cada iteración
+}
+
+*/
+
+// array, string
+
+// Creamos un objeto, indicamos las propiedades que queremos que tenga
+
+const carro = {
+    marca: 'BMW',
+    modelo: 'Z4',
+    color: 'Negro',
+    VelMax: '250km/h',
+    estado: 'Bueno'
+}
+
+for (info in carro) {
+    console.log(`${info} : ${carro[info]}`)
+}
