@@ -91,6 +91,6 @@ const carro = {
     estado: 'Bueno'
 }
 
-for (info in carro) {
+for (let info in carro) {
     console.log(`${info} : ${carro[info]}`)
 }
