@@ -39,6 +39,31 @@ console.log("Nivel básico")
 console.log("----------------------------------------------------------------------")
 console.log("----------------------------------------------------------------------")
 console.log("Nivel intermedio")
+console.log("7. Imprimir los números del 1 al 100.")
+
+for (let i=1; i<=10; i++) {
+    console.log("El valor de i es: ", i);
+}
+
+console.log("10. Crear una función que convierta grados Celsius a Fahrenheit.")
+console.log("11. Implementar una función que determine si una cadena es un palíndromo.")
+console.log("12. Utilizar una biblioteca como Moment.js para realizar operaciones con fechas y horas.")
+console.log("13. Crear un sencillo juego utilizando una biblioteca de gráficos como Phaser.")
+
 console.log("----------------------------------------------------------------------")
 console.log("Nivel avanzado")
+
+console.log("16. Modelar un objeto Persona con propiedades como nombre, edad y dirección.");
+
+const persona = {
+    nombre: "Juan",
+    edad: 30,
+    saludar: function() {
+        console.log("Hola, mi nombre es " + this.nombre);
+    }
+};
+
+persona.saludar();
+
 console.log("17. Crear una clase Carro con propiedades como marca, modelo y año.")
+
