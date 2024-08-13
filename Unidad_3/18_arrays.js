@@ -142,7 +142,7 @@ utilizando métodos como push(), pop(), shift() y unshift().
 
 let Verduras = ["tomate", "cebolla", "zanahoria"];
 Verduras.push("Ajo"); // Agrega "Ajo" al final del array
-console.log("Verduras" Verduras); // imprime ["tomate", "cebolla", "zanahoria", "Ajo"]
+console.log("Verduras" + Verduras); // imprime ["tomate", "cebolla", "zanahoria", "Ajo"]
 
 /* 
 ¿Por qué es importante la inmutabilidad?
@@ -166,5 +166,4 @@ console.log("Nuevos vehículos:" + nuevosVehiculos);
 - Cuando queramos prevenir efectos secundarios no deseados.
 - Cuando trabajemos con datos que no deben ser modificados.
 - Cuando utilicemos frameworks que se basan en la inmutabilidad.
-
 */
