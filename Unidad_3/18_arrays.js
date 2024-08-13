@@ -63,3 +63,65 @@ console.log("shift:" + frutas);
 // unshift: agrega un elemento al principio del array.
 frutas.unshift("kiwi");
 console.log("unshift" + frutas);
+
+// splice: elimina o reemplaza elementos en una posición específica
+
+// slice: devuelve una copia de una parte del array.
+
+// concat: combina dos o más arrays en un nuevo array.
+
+// join: convierte todos los elementos del array en una cadena, separados por un separador específico
+
+// forEach: itera sobre cada elemento del array y ejecuta una función para cada uno.
+frutas.forEach(fruta => console.log(fruta)); // imprime cada fruta en una línea separada
+
+// map: crea un nuevo array con los resultados de aplicar una función a cada elemento del array original.
+let Numeros = [1, 2, 3, 4, 5];
+let numerosDoblados = Numeros.map(numero => numero * 2);
+let cuadrados = Numeros.map(numero => numero * numero);
+console.log("Numeros:" + Numeros);  // 1,2,3,4,5
+console.log("Doblados:" + numerosDoblados); // 2,4,6,8,10
+console.log("Cuadrados:" + cuadrados); // 1, 4, 9, 16, 25
+
+// filter: crea un nuevo array con los elementos que cumplen una condición dada.
+
+// find: devuelve el primer elemento que cumple una condición dada.
+
+// sort: ordena los elementos de un array.
+
+// reverse: invierte el orden de los elementos de un array.
+
+// reduce: aplica una función a un acumulador y a cada elemento del array (de izquierda a derecha) para reducirlo a un único valor.
+
+// Iterando sobre arrays
+
+for (let i=0 ; i<frutas.length; i++){
+    console.log(frutas[i]); // imprime cada fruta en una línea separada
+}
+
+/* forEach
+frutas.forEach(fruta=>{
+    console.log(fruta);
+});
+)
+
+*/
+
+// Arrays multidimensionales
+
+/*
+Los arrays pueden contener otros arrays, creando estructuras de datos más complejas.
+*/
+
+let matriz = [
+//  c0 c1 c2   // c = columna
+    [1, 2 ,3], //fila 0
+    [4, 5 ,6], //fila 1
+    [7, 8 ,9]  //fila 2
+];
+
+console.log("Matriz:" + matriz);
+// Acceder a elementos específicos
+// console.log(matriz[# fila][# columna]);
+console.log(matriz[0][1]); // imprime 2 
+console.log(matriz[2][2]); // imprime 9
