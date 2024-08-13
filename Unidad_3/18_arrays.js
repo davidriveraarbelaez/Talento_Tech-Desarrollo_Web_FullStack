@@ -125,3 +125,46 @@ console.log("Matriz:" + matriz);
 // console.log(matriz[# fila][# columna]);
 console.log(matriz[0][1]); // imprime 2 
 console.log(matriz[2][2]); // imprime 9
+
+/* Mutabilidad e inmutabilidad
+
+Mutabilidad: Un objeto es mutable cuando puede ser modificado después de su creación. En el contexto
+de los arrays, esto significa que podemos agregar, eliminar o cambiar elementos directamente en el
+array original.
+
+Inmutabilidad:Un objeto es inmutable cuando no puede ser modificado después de su creación. Cualquier
+cambio a un objeto inmutable resulta en la creación de un nuevo objeto.
+
+Por defecto,los arrays en JavaScript son mutables. Esto significa que puedes modificarlos directamente
+utilizando métodos como push(), pop(), shift() y unshift().
+
+*/
+
+let Verduras = ["tomate", "cebolla", "zanahoria"];
+Verduras.push("Ajo"); // Agrega "Ajo" al final del array
+console.log("Verduras" Verduras); // imprime ["tomate", "cebolla", "zanahoria", "Ajo"]
+
+/* 
+¿Por qué es importante la inmutabilidad?
+- Predictibilidad.
+- Pureza funcional.
+- React y otras frameworks.
+
+¿Cómo logramos inmutabilidad en JavaScript?
+- Spread operator (...): Crea una copia superficial de un array.
+- Métodos que devuelven nuevos arrays: slice,map, filter, concat, etc.
+- Librerías de programación funcional: Ramda, lodash, etc.
+*/
+
+// Ejemplo: spread operator
+let vehiculos = ["moto" , "bicicleta", "carro"];
+let nuevosVehiculos = [...vehiculos, "patineta"]; // Agrega "patineta" al final del array
+console.log("Nuevos vehículos:" + nuevosVehiculos);
+
+/*
+¿Cuándo utilizar la inmutabilidad?
+- Cuando queramos prevenir efectos secundarios no deseados.
+- Cuando trabajemos con datos que no deben ser modificados.
+- Cuando utilicemos frameworks que se basan en la inmutabilidad.
+
+*/
