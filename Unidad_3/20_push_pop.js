@@ -31,6 +31,10 @@ let tareas = [];
 tareas.push('Realizar el taller del bootcamp');
 tareas.push('Comprar un regalo para mi si lo entrego a tiempo');
 
+// Mostrar la lista de tareas
+lista_Tareas = tareas;
+console.log("Lista de tareas: " + lista_Tareas); // Lista de tareas: [ 'Realizar el taller del bootcamp', 'Comprar un regalo para mi si lo entrego a tiempo' ]
+
 // Completar un tarea
 tareaCompletada = tareas.pop();
 console.log("Tarea completada: " + tareaCompletada);
