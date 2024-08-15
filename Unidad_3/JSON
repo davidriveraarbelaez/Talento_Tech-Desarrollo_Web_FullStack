@@ -1,0 +1,50 @@
+## JSON --> JavaScript Object Notation
+
+Es un formato ligero y fácil de leer que se utiliza para intercambiar datos
+entre sistemas. Es como un idioma universal que se utiliza para que los 
+computadores se "hablen" entre sí.
+
+## ¿Cómo funciona?
+
+- Pares clave-valor: Los datos en JSON se organizan en palabras clave-valor.
+Por ejemplo, {"nombre:": "Juan", "edad": 25}.
+
+- Objetos: Un objeto en JSON es una coleccion de pares clave-valor encerrados
+entre llaves.
+
+- Arreglos: Un arreglo en JSON es una colección de valores separados por comas
+y encerrados entre corchetes [].
+
+## Ejemplo
+
+{
+    "nombre": "Juan",
+    "edad": 25,
+    "ciudad": "Bogota",
+    "hobbies": ["leer", "programar", "cocinar"]
+}
+
+* nombre, edad y ciudad son claves.
+* "Juan", 25 y "Bogota" son los valores correspondientes.
+* "leer", "programar" y "cocinar" son elementos del arreglo hobbies.
+
+## Ventajas de JSON:
+
+- Fácil de leer y escribir.
+- Independiente del lenguaje. 
+- Ligero.
+- Popular.
+
+## ¿Dónde se utiliza JSON?
+
+- API (Interfaces de programación de aplicaciones).
+- Almacenamiento de datos.
+- Configuración de aplicaciones.
+- Intercambio de datos entre aplicaciones.
+- Comunicación entre clientes y servidores.
+- Comunicación entre navegadores.
+- Comunicación entre sistemas.
+- Comunicación entre sistemas de tiempo real.
+- Comunicación entre sistemas de gestión de bases de datos.
+
+
