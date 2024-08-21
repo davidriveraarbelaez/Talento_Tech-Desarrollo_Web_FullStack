@@ -1,0 +1,44 @@
+
+#basico{
+    background: rgba(255, 0, 0, 0.25);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#intermedio{
+    background: rgba(0, 255, 0, 0.25);
+}
+
+#avanzado{
+    background: rgba(0, 0, 255, 0.25);
+}
+
+.contenedor{
+    width: 300px;
+    height: 150px;
+    background-color: blanchedalmond;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button{
+    width: 90px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(46, 205, 15);
+}
+
+/* 
+nav{
+    background: rgba(255, 255, 0, 0.492);
+    text-align: center;
+}
+
+h2,h3{
+    text-align: left;
+    color: sienna;
+}
+*/

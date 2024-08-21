@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Taller JavaScript</title>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="#basico">Nivel Básico</a></li>
+            <li><a href="#intermedio">Nivel Intermedio</a></li>
+            <li><a href="#avanzado">Nivel Avanzado</a></li>
+        </ul>
+    </nav>
     <h1> Solución del Taller JavaScript</h1>
     <section id = "basico">
         <h2> Ejercicios nivel básico</h2>
@@ -16,7 +24,15 @@
             <li> Declarar variables para almacenar diferentes tipos de datos (número, cadena, booleano) y realizar operaciones básicas. </li>
             <h3> Operadores Aritméticos y Comparación: </h3>
             <li> Calcular el área y perímetro de un rectángulo, solicitando al usuario las medidas de sus lados. </li>
-            <li> Implementar un programa que determine si un número es par o impar. </li>
+            
+            <div class="contenedor">
+                <li> Implementar un programa que determine si un número es par o impar 
+                    <!-- <a href="scripts/ejercicio4.js">Solución</a>. </li> -->
+                    <button onclick="window.open('scripts/ejercicio4.js', '_blank')">Ver código</button>
+                    <button id="boton">Ejecutar</button>
+            </div>
+            
+            
             <h3> Condicionales: </h3>
             <li> Crear un programa que simule una calculadora básica, permitiendo al usuario elegir la operación a realizar. </li>
             <li> Desarrollar un programa que determine si un año es bisiesto.</li>                       
