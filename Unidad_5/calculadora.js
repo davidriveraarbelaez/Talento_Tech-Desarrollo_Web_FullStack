@@ -4,6 +4,9 @@ const port = 3000; // Establecer el puerto de escucha del servidor en 3000
 
 // Sistema de operaciones básicas
 app.get('/calcular/:operacion/:a/:b',(req,res)=>{
+    // ReferenceError: operacion is not defined
+    const operacion = req.params.operacion;
+    // ReferenceError: operacion is not defined
     const a = parseInt(req.params.a);
     const b = parseInt(req.params.b);
     let resultado;
@@ -18,7 +21,7 @@ app.get('/calcular/:operacion/:a/:b',(req,res)=>{
             break;
 
         case 'multiplicar':
-            resultado = a / b;
+            resultado = a * b;
             break;
     
         case 'dividir':
