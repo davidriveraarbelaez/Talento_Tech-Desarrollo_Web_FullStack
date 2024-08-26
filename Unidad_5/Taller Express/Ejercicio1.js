@@ -12,7 +12,9 @@ app.get('/tabla/:numero', (req, res) =>{
     const numero = parseInt(req.params.numero);
 
     // Si no es un número, "El parámetro ingresado no es un número", retornar un error
-
+    /*
+    Tips: Condicional If, revisar NaN (Not a Number)
+    */
 
    const tabla = [];
    for (let i=1; i<=10; i++){

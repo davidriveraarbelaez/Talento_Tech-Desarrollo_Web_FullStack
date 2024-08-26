@@ -12,3 +12,5 @@
 - Duración del primer sprint de programación. 15 minutos. Hora límite: 705AM
 
 ## Ejercicios resueltos
+- [Ejercicio 2](https://github.com/ingDavidRivera/Talento_Tech-Desarrollo_Web_FullStack/blob/main/Unidad_5/Taller%20Express/Ejercicio2.js)
+

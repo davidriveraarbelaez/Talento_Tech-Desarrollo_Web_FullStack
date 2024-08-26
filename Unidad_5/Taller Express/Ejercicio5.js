@@ -12,6 +12,10 @@ app.get('/celsius-a-fahrenheit/:celsius', (req, res) =>{
 
 })
 
+app.get('/celsius-a-fahrenheit/:celsius', (req, res)=>{
+
+});
+
 app.listen(port, ()=>{
     console.log(`Servidor escuchando en el puerto ${port}`);
 });

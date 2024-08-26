@@ -8,6 +8,9 @@ const app = express();      // Crea una instancia de express
 const port = 2000;          // Establece el puerto 2000
 
 // Lógica
+/*
+ Revisar y adaptar ejercicio Unidad 5, 05_calculadora.js y adaptar las rutas.
+*/
 
 
 app.listen(port, ()=>{
