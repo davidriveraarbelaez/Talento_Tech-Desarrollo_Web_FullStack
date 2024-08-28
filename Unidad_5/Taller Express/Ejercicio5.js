@@ -9,12 +9,10 @@ const port = 5000;          // Establece el puerto 5000
 
 // Lógica
 app.get('/celsius-a-fahrenheit/:celsius', (req, res) =>{
-
+    const celsius = req.params.celsius;
+    const fahrenheit = (celsius * 9/5) + 32;
+    res.send(`La temperatura en grados Fahrenheit es: ${fahrenheit}`);
 })
-
-app.get('/celsius-a-fahrenheit/:celsius', (req, res)=>{
-
-});
 
 app.listen(port, ()=>{
     console.log(`Servidor escuchando en el puerto ${port}`);
