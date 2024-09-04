@@ -1,0 +1,113 @@
+[
+    {
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "precio": 20000,
+        "km": 50000,
+        "fabricacion": 2018,
+        "descripcion": "Un auto confiable y económico para el día a día."
+    },
+    {
+        "marca": "Honda",
+        "modelo": "Civic",
+        "precio": 22000,
+        "km": 40000,
+        "fabricacion": 2019,
+        "descripcion": "Un sedán deportivo con excelente rendimiento."
+    },
+    {
+        "marca": "Ford",
+        "modelo": "Mustang",
+        "precio": 35000,
+        "km": 25000,
+        "fabricacion": 2021,
+        "descripcion": "Un clásico deportivo americano."
+    },
+    {
+        "marca": "BMW",
+        "modelo": "Serie 3",
+        "precio": 40000,
+        "km": 30000,
+        "fabricacion": 2020,
+        "descripcion": "Un sedán de lujo con excelente manejo."
+    },
+      {
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "año": 2023,
+        "precio": 25000,
+        "descripcion": "Un sedán compacto, confiable y eficiente en consumo de combustible."
+    },
+      {
+        "marca": "Ford",
+        "modelo": "Mustang",
+        "año": 2024,
+        "precio": 40000,
+        "descripcion": "Un clásico deportivo americano con un motor potente y un diseño icónico."
+    },
+    {
+        "marca": "BMW",
+        "modelo": "Serie 3",
+        "año": 2021,
+        "precio": 45000,
+        "descripcion": "Un sedán de lujo con un manejo deportivo y una calidad de construcción superior."
+    },
+  
+    {
+        "marca": "Honda",
+        "modelo": "Civic",
+        "año": 2022,
+        "precio": 28000,
+        "descripcion": "Un auto deportivo compacto con un diseño elegante y tecnología avanzada."
+    },
+      {
+        "marca": "Tesla",
+        "modelo": "Model 3",
+        "año": 2023,
+        "precio": 50000,
+        "descripcion": "Un sedán eléctrico de alto rendimiento con una autonomía impresionante."
+    },
+    {
+        "marca": "Audi",
+        "modelo": "A4",
+        "año": 2022,
+        "precio": 42000,
+        "descripcion": "Un sedán de lujo alemán con un diseño sofisticado y una tecnología avanzada."
+    },
+      {
+        "marca": "Mercedes-Benz",
+        "modelo": "C-Class",
+        "año": 2021,
+        "precio": 48000,
+        "descripcion": "Un sedán de lujo con un interior opulento y una conducción suave."
+    },
+     {
+        "marca": "Hyundai",
+        "modelo": "Elantra",
+        "año": 2023,
+        "precio": 22000,
+        "descripcion": "Un sedán compacto con un diseño moderno y un buen equipamiento estándar."
+    },
+    {
+        "marca": "Kia",
+        "modelo": "Forte",
+        "año": 2022,
+        "precio": 23000,
+        "descripcion": "Un sedán compacto con un diseño deportivo y una garantía líder en la industria."
+    },
+      {
+        "marca": "Nissan",
+        "modelo": "Altima",
+        "año": 2021,
+        "precio": 27000,
+        "descripcion": "Un sedán mediano con un diseño elegante y un amplio espacio interior."
+    },
+    {
+        "marca": "Tesla",
+        "modelo": "Model 3",
+        "precio": 50000,
+        "km": 15000,
+        "fabricacion": 2022,
+        "descripcion": "Un auto eléctrico con tecnología de punta."
+    }
+]
