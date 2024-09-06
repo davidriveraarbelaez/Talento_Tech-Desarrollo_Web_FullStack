@@ -1,18 +1,21 @@
 body{
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornflowerblue;
     text-align: center;
-    padding: 50px;
+    padding: 25px;
 }
 
-form{
-    margin: 20px auto;
+table{
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
 }
 
-input, button {
+th, td{
     padding: 10px;
-    margin: 10px;
-    border: 1px solid #270b0b;
-    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+th{
+    background-color: #c4b1b190;
 }
